@@ -24,9 +24,9 @@
 - 검은 터미널 화면에 `./bin/flutter doctor` 를 입력합니다. 
 - `[v] Flutter` 라는 초록색 글씨가 있으면 인스톨 성공입니다. (나머지는 다음에 설정하면 됩니다.)
 
-![](20190805-see-more-mac.assets/Screen Shot 2019-08-05 at 5.37.31 PM.png)
+![](20190805-see-more-mac.assets/001.png)
 
-![](20190805-see-more-mac.assets/Screen Shot 2019-08-05 at 5.41.29 PM.png)
+![](20190805-see-more-mac.assets/002.png)
 
 ## 3. Android Studio에서 해당 path를 지정하고, 프로젝트를 시작합니다.
 

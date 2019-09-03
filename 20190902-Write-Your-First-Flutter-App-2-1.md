@@ -80,8 +80,15 @@ Widget _buildRow(WordPair pair) {
 먼저 RandomWordsState 클래스에 아래 코드를 추가합니다. 
 
 ```dart
-  void _pushSaved() {
-  }
+class RandomWordsState extends State<RandomWords> {
+  final _suggestions = <WordPair>[];
+  final Set<WordPair> _saved = Set<WordPair>();
+  final _biggerFont = const TextStyle(fontSize: 18.0);
+  // #enddocregion RWS-var
+
+  void _pushSaved() { // 여기부터 
+  } // 여기까지 붙여넣기 해주세요.
+  ...
 ```
 
 
@@ -117,10 +124,10 @@ class RandomWordsState extends State<RandomWords> {
 
 이제 _pushSaved 버튼을 수정해보겠습니다. 
 
-```
+```dart
 void _pushSaved() {
   Navigator.of(context).push(
-    MaterialPageRoute<void>(   // Add 20 lines from here...
+    MaterialPageRoute<void>(
       builder: (BuildContext context) {
         final Iterable<ListTile> tiles = _saved.map(
           (WordPair pair) {
@@ -137,9 +144,17 @@ void _pushSaved() {
             context: context,
             tiles: tiles,
           )
-          .toList();
+              .toList();
+
+        return Scaffold(         // Add 6 lines from here...
+          appBar: AppBar(
+            title: Text('Saved Suggestions'),
+          ),
+          body: ListView(children: divided),
+        );                       // ... to here.
       },
-    ),                       // ... to here.
+    ),
   );
 }
 ```
+

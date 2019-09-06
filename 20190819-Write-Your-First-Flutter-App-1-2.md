@@ -1,6 +1,7 @@
 ---
 title: Write Your First Flutter App, part 2
 date: 2019-08-19
+
 ---
 
 ## 참고자료:

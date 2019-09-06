@@ -1,6 +1,7 @@
 ---
 title: Write Your First Flutter App, part 2
 date: 2019-09-02
+
 ---
 
 # 이번주 목표
@@ -122,7 +123,7 @@ class RandomWordsState extends State<RandomWords> {
 
 ## 라우팅 해보자
 
-이제 _pushSaved 버튼을 수정해보겠습니다. 
+이제 `_pushSaved` 버튼을 수정해보겠습니다. 
 
 ```dart
 void _pushSaved() {

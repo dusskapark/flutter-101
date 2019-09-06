@@ -1,6 +1,7 @@
 ---
 title: Write Your First Flutter App, part 1
 date: 2019-08-19
+
 ---
 
 # 이번주 할일

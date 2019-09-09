@@ -11,7 +11,7 @@ date: 2019-09-09
 # 사전 준비
 
 - 혹시 못 진도를 못 따라오셨나요? 걱정마세요! 우리 스터디는 완주가 목표입니다.
--  우선 **lib/main.dart** 의 모든 코드를 지우고 이 [file](https://github.com/flutter/codelabs/blob/b3293b5bb0c0187bdbe8112f7759f4d75f4c040a/startup_namer/step4_infinite_list/lib/main.dart)로 덮어쓰세요. 
+-  우선 **lib/main.dart** 의 모든 코드를 지우고 이 [file](https://github.com/flutter/codelabs/blob/master/startup_namer/step7_navigate_route/lib/main.dart)로 덮어쓰세요. 
 - 그리고 **pubspec.yaml** 에 ` english_words: ^3.1.0` 를 추가하세요. 
 - 다음에 우측 상단에 있는 click **Packages get** 라는 버튼을 클릭해서 업데이트 해주세요.
 - 마지막으로 앱을 동작시켜보세요!
@@ -49,6 +49,7 @@ class MyApp extends StatelessWidget {
 > TMI
 > - https://material-ui.com/customization/color/#color-tool
 > - https://material.io/resources/color/
+> - https://material.io/inline-tools/color/
 
 -------
 
